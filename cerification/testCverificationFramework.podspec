@@ -88,8 +88,8 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "Bw-OneLoginSDK", "Bw-OneLoginSDK/Lib/verification_sdk_r310_1_0.framework/Headers/*.{h,m}"
-  spec.exclude_files = "Bw-OneLoginSDK/Lib/verification_sdk_r310_1_0.framework"
+  spec.source_files  = "../Lib/verification_sdk_r310_1_0.framework/Headers/*.{h,m}"
+  spec.exclude_files = "../Lib/verification_sdk_r310_1_0.framework"
 
   # spec.public_header_files = "Classes/**/*.h"
 
